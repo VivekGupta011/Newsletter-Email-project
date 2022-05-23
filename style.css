@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+
+.container {
+  height: 110vh;
+  width: auto;
+}
+
+/* body{
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 90%; 
+} */
+
+/* global variale */
+h3 {
+  font-size: 25px;
+}
+span.question {
+  font-size: 150px;
+  position: absolute;
+  top: 85px;
+  right: 330px;
+}
+h1 {
+  font-size: 45px;
+  position: relative;
+  top: -19px;
+}
+/* global variale-X*/
+
+/* section first css */
+.container .first-section {
+  width: 100%;
+  height: 112vh;
+  background-image: url(./images/img1.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 727px;
+}
+button#mybutton {
+  display: flex;
+  padding: 8px;
+  height: 39px;
+  width: 130px;
+  margin: 23px 0;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.logo {
+  text-align: center;
+  margin: 1% 0;
+}
+
+.item {
+  position: absolute;
+  margin-top: 50px;
+  right: 829px;
+}
+
+button#mybutton {
+  display: flex;
+  margin: 23px 0;
+  bottom: -210px;
+  position: absolute;
+}
+h4 {
+  margin-top: -24px;
+  position: absolute;
+  bottom: -229px;
+}
+/* section first css-X*/
+
+/* section second css-X*/
+.container .second-section .text-dynamic div p {
+  border: 2px solid black;
+  width: 150px;
+  height: 90px;
+}
+
+.text-item p {
+  text-align: center;
+  margin: 19px 148px;
+}
+.text-dynamic {
+  display: flex;
+  padding: 81px;
+}
+.container .second-section .text-dynamic .dynamic {
+  position: relative;
+  left: 797px;
+}
+p {
+  text-align: center;
+  line-height: 1.9;
+  font-size: 25px;
+}
+.post-button {
+  position: absolute;
+  right: 904px;
+}
+/* section second css-X*/
+img {
+  width: 199px;
+  height: auto;
+}
+
+.images {
+  display: flex;
+  flex-direction: row;
+  left: 12%;
+  position: absolute;
+}
+h1.greeting {
+  position: relative;
+  right: -70px;
+  font-size: 35px;
+}
+
+.third-section h1 {
+  position: relative;
+  right: -379px;
+  margin: 65px 0;
+}
+
+.note p {
+    position: absolute;
+    margin-top: 226px;
+    padding: 25px 36px;
+    right: 24px;
+    background-color: cyan;
+    width: 95%;
+}
+.img1 {
+    padding: 30px;
+}
